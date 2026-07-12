@@ -67,6 +67,8 @@ apis:
   - type: Documentation
     url: https://www.bloomberg.com/professional/support/api-library/
 common:
+- type: DomainSecurity
+  url: security/bloomberg-proprietary-technologies-domain-security.yml
 - type: Portal
   url: https://www.bloomberg.com/professional/
 - type: Documentation
