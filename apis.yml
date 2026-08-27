@@ -1,11 +1,9 @@
 aid: bloomberg-proprietary-technologies
 name: Bloomberg Proprietary Technologies
-description: Bloomberg Proprietary Technologies encompasses the internally developed
-  technology innovations that power Bloomberg's products and services. This includes
-  Bloomberg's proprietary data network, the BLPAPI connectivity protocol, BQL query
-  language, B-PIPE data distribution technology, FIGI (Financial Instrument Global
-  Identifier) system, and the Bloomberg Generative AI capabilities integrated into
-  its financial data platform.
+description: Bloomberg Proprietary Technologies encompasses the internally developed technology innovations that
+  power Bloomberg's products and services. This includes Bloomberg's proprietary data network, the BLPAPI connectivity
+  protocol, BQL query language, B-PIPE data distribution technology, FIGI (Financial Instrument Global Identifier)
+  system, and the Bloomberg Generative AI capabilities integrated into its financial data platform.
 type: Index
 accessModel:
   pricing: freemium
@@ -22,7 +20,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-proprietary-technologies.png
 url: https://raw.githubusercontent.com/api-evangelist/bloomberg-proprietary-technologies/refs/heads/main/apis.yml
 created: '2024-01-01'
-modified: '2026-04-21'
+modified: '2026-08-27'
 specificationVersion: '0.23'
 tags:
 - Proprietary Technology
@@ -35,9 +33,8 @@ tags:
 apis:
 - aid: bloomberg-proprietary-technologies:blpapi
   name: Bloomberg Open API (BLPAPI)
-  description: Bloomberg's proprietary socket-based API protocol for accessing Bloomberg
-    data, providing a high-performance connectivity layer between client applications
-    and Bloomberg's data infrastructure.
+  description: Bloomberg's proprietary socket-based API protocol for accessing Bloomberg data, providing a high-performance
+    connectivity layer between client applications and Bloomberg's data infrastructure.
   humanURL: https://bloomberg.github.io/blpapi-docs/
   baseURL: blpapi://localhost:8194
   tags:
@@ -49,9 +46,8 @@ apis:
     url: https://bloomberg.github.io/blpapi-docs/
 - aid: bloomberg-proprietary-technologies:figi-api
   name: Bloomberg FIGI API
-  description: The Financial Instrument Global Identifier (FIGI) is Bloomberg's open
-    standard for identifying financial instruments. The OpenFIGI API allows free
-    mapping of tickers, ISINs, CUSIPs, and other identifiers to FIGI codes.
+  description: The Financial Instrument Global Identifier (FIGI) is Bloomberg's open standard for identifying financial
+    instruments. The OpenFIGI API allows free mapping of tickers, ISINs, CUSIPs, and other identifiers to FIGI codes.
   humanURL: https://www.openfigi.com/api
   baseURL: https://api.openfigi.com
   tags:
@@ -66,9 +62,8 @@ apis:
     url: https://api.openfigi.com/schema/openapi.json
 - aid: bloomberg-proprietary-technologies:bql
   name: Bloomberg Query Language (BQL)
-  description: Bloomberg's proprietary query language enabling flexible data requests
-    with filtering, aggregation, and calculated field capabilities across Bloomberg's
-    data universe.
+  description: Bloomberg's proprietary query language enabling flexible data requests with filtering, aggregation,
+    and calculated field capabilities across Bloomberg's data universe.
   humanURL: https://www.bloomberg.com/professional/support/api-library/
   baseURL: bql://bloomberg.com
   tags:
@@ -79,6 +74,11 @@ apis:
   - type: Documentation
     url: https://www.bloomberg.com/professional/support/api-library/
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/bloomberg/
+  name: Bloomberg
+  x-relationship: product
+  x-generated-by: bloomberg-family:2026-08-27
 - type: DomainSecurity
   url: security/bloomberg-proprietary-technologies-domain-security.yml
 - type: Portal
@@ -96,8 +96,7 @@ common:
 - type: Features
   data:
   - name: BLPAPI Protocol
-    description: Proprietary socket protocol for high-performance Bloomberg data
-      connectivity.
+    description: Proprietary socket protocol for high-performance Bloomberg data connectivity.
   - name: Bloomberg Query Language
     description: Proprietary query language for flexible financial data requests.
   - name: FIGI Identifier System
@@ -105,11 +104,9 @@ common:
   - name: B-PIPE Distribution
     description: Proprietary managed data distribution technology for enterprise.
   - name: Bloomberg AI/ML
-    description: Machine learning and AI capabilities integrated into Bloomberg data
-      products.
+    description: Machine learning and AI capabilities integrated into Bloomberg data products.
   - name: Bloomberg Cloud Infrastructure
-    description: Cloud-native infrastructure enabling Bloomberg data access from
-      major cloud platforms.
+    description: Cloud-native infrastructure enabling Bloomberg data access from major cloud platforms.
 - type: UseCases
   data:
   - name: Instrument Identification
@@ -122,3 +119,5 @@ common:
 maintainers:
 - FN: Kin Lane
   email: kinlane@gmail.com
+x-parent: bloomberg
+x-relationship: product
