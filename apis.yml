@@ -5,6 +5,17 @@ description: Bloomberg Proprietary Technologies encompasses the internally devel
   protocol, BQL query language, B-PIPE data distribution technology, FIGI (Financial Instrument Global Identifier)
   system, and the Bloomberg Generative AI capabilities integrated into its financial data platform.
 type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
