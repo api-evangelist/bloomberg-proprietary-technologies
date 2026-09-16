@@ -1,9 +1,10 @@
 aid: bloomberg-proprietary-technologies
 name: Bloomberg Proprietary Technologies
-description: Bloomberg Proprietary Technologies encompasses the internally developed technology innovations that
-  power Bloomberg's products and services. This includes Bloomberg's proprietary data network, the BLPAPI connectivity
-  protocol, BQL query language, B-PIPE data distribution technology, FIGI (Financial Instrument Global Identifier)
-  system, and the Bloomberg Generative AI capabilities integrated into its financial data platform.
+description: Bloomberg Proprietary Technologies encompasses the internally developed technology innovations
+  that power Bloomberg's products and services. This includes Bloomberg's proprietary data network, the
+  BLPAPI connectivity protocol, BQL query language, B-PIPE data distribution technology, FIGI (Financial
+  Instrument Global Identifier) system, and the Bloomberg Generative AI capabilities integrated into its
+  financial data platform.
 type: Index
 deliveryModel:
   model: saas
@@ -31,7 +32,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-proprietary-technologies.png
 url: https://raw.githubusercontent.com/api-evangelist/bloomberg-proprietary-technologies/refs/heads/main/apis.yml
 created: '2024-01-01'
-modified: '2026-08-27'
+modified: '2026-09-16'
 specificationVersion: '0.23'
 tags:
 - Proprietary Technology
@@ -44,8 +45,8 @@ tags:
 apis:
 - aid: bloomberg-proprietary-technologies:blpapi
   name: Bloomberg Open API (BLPAPI)
-  description: Bloomberg's proprietary socket-based API protocol for accessing Bloomberg data, providing a high-performance
-    connectivity layer between client applications and Bloomberg's data infrastructure.
+  description: Bloomberg's proprietary socket-based API protocol for accessing Bloomberg data, providing
+    a high-performance connectivity layer between client applications and Bloomberg's data infrastructure.
   humanURL: https://bloomberg.github.io/blpapi-docs/
   baseURL: blpapi://localhost:8194
   tags:
@@ -57,8 +58,9 @@ apis:
     url: https://bloomberg.github.io/blpapi-docs/
 - aid: bloomberg-proprietary-technologies:figi-api
   name: Bloomberg FIGI API
-  description: The Financial Instrument Global Identifier (FIGI) is Bloomberg's open standard for identifying financial
-    instruments. The OpenFIGI API allows free mapping of tickers, ISINs, CUSIPs, and other identifiers to FIGI codes.
+  description: The Financial Instrument Global Identifier (FIGI) is Bloomberg's open standard for identifying
+    financial instruments. The OpenFIGI API allows free mapping of tickers, ISINs, CUSIPs, and other identifiers
+    to FIGI codes.
   humanURL: https://www.openfigi.com/api
   baseURL: https://api.openfigi.com
   tags:
@@ -73,8 +75,8 @@ apis:
     url: https://api.openfigi.com/schema/openapi.json
 - aid: bloomberg-proprietary-technologies:bql
   name: Bloomberg Query Language (BQL)
-  description: Bloomberg's proprietary query language enabling flexible data requests with filtering, aggregation,
-    and calculated field capabilities across Bloomberg's data universe.
+  description: Bloomberg's proprietary query language enabling flexible data requests with filtering,
+    aggregation, and calculated field capabilities across Bloomberg's data universe.
   humanURL: https://www.bloomberg.com/professional/support/api-library/
   baseURL: bql://bloomberg.com
   tags:
@@ -85,6 +87,8 @@ apis:
   - type: Documentation
     url: https://www.bloomberg.com/professional/support/api-library/
 common:
+- type: Website
+  url: https://bloomberg.github.io
 - type: ParentCompany
   url: https://apis.io/providers/bloomberg/
   name: Bloomberg
