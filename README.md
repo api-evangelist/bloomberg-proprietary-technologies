@@ -64,21 +64,108 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Bloomberg Proprietary Technologies encompasses the internally developed technology innovations powering Bloomberg's products and services, including BLPAPI, BQL, B-PIPE, and the FIGI financial identifier system.
+Bloomberg Proprietary Technologies encompasses the internally developed technology innovations that power Bloomberg's products and services. This includes Bloomberg's proprietary data network, the BLPAPI connectivity protocol, BQL query language, B-PIPE data distribution technology, FIGI (Financial Instrument Global Identifier) system, and the Bloomberg Generative AI capabilities integrated into its financial data platform.
 
-## APIs
+**Areas:** Proprietary Technology · BLPAPI · BQL · FIGI · B-PIPE · Financial Technology · Bloomberg
 
-- **Bloomberg Open API (BLPAPI)** - Proprietary socket-based data connectivity protocol
-- **Bloomberg FIGI API** - Open standard financial instrument identifier mapping
-- **Bloomberg Query Language (BQL)** - Proprietary query language for data requests
+## Bloomberg Proprietary Technologies on APIs.io
 
-## Resources
+Everything profiled for Bloomberg Proprietary Technologies is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bloomberg-proprietary-technologies/](https://apis.io/providers/bloomberg-proprietary-technologies/)** — or go straight to one of the APIs or properties below.
 
-- [BLPAPI Documentation](https://bloomberg.github.io/blpapi-docs/)
-- [OpenFIGI API](https://www.openfigi.com/api)
-- [Bloomberg Developer Portal](https://developer.bloomberg.com/)
-- [Bloomberg GitHub](https://github.com/bloomberg)
+### APIs (3)
 
-## Profile
+- [Bloomberg Open API (BLPAPI)](https://apis.io/apis/bloomberg-proprietary-technologies/blpapi/) — Bloomberg's proprietary socket-based API protocol for accessing Bloomberg data, providing a high-performance connectivity layer between client applications…
+- [Bloomberg FIGI API](https://apis.io/apis/bloomberg-proprietary-technologies/figi-api/) — The Financial Instrument Global Identifier (FIGI) is Bloomberg's open standard for identifying financial instruments. The OpenFIGI API allows free mapping…
+- [Bloomberg Query Language (BQL)](https://apis.io/apis/bloomberg-proprietary-technologies/bql/) — Bloomberg's proprietary query language enabling flexible data requests with filtering, aggregation, and calculated field capabilities across Bloomberg's…
 
-See [apis.yml](apis.yml) for the full API profile.
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Bloomberg Proprietary Technologies Domain Security](https://apis.io/security/bloomberg-proprietary-technologies/bloomberg-proprietary-technologies-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Bloomberg Proprietary Technologies Plans Pricing](https://apis.io/plans/bloomberg-proprietary-technologies/bloomberg-proprietary-technologies-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Bloomberg Proprietary Technologies Rate Limits](https://apis.io/rate-limits/bloomberg-proprietary-technologies/bloomberg-proprietary-technologies-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Bloomberg Proprietary Technologies Finops](https://apis.io/finops/bloomberg-proprietary-technologies/bloomberg-proprietary-technologies-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://bloomberg.github.io)
+- [Documentation](https://developer.bloomberg.com/)
+- [Support](https://www.bloomberg.com/professional/support/)
+- [Terms of service](https://www.bloomberg.com/notices/tos/)
+- [Privacy policy](https://www.bloomberg.com/privacy/)
+- [GitHub](https://github.com/bloomberg)
+
+## API Evangelist rating
+
+**Kin Score 23.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 24.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 28.9 |
+
+**Agent readiness 13.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bloomberg-proprietary-technologies/](https://apis.io/providers/bloomberg-proprietary-technologies/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bloomberg Proprietary Technologies: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bloomberg-proprietary-technologies/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
